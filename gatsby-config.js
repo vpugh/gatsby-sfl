@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Sumo Fantasy League`,
+    description: `Place to create a team of Rikishi and see who comes out on top`,
+    author: `@tkaa-two`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

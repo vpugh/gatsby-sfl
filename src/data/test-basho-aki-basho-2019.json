@@ -1,0 +1,22 @@
+{
+  "option1": {
+    "formName": "Yokozuna/Ozeki",
+    "wrestlers": ["Kakuryu", "Hakuho", "Takayasu", "Goeido", "Tochinoshin"]
+  },
+  "option2": {
+    "formName": "Sekiwake/Komusubi",
+    "wrestlers": ["Mitakeumi", "Takekisho", "Abi", "Endo"]
+  },
+  "option3": {
+    "formName": "Upper Maegashira (1-5)",
+    "wrestlers": ["Hokutofuji", "Aoiyama", "Ichinojo", "Asanoyama", "Daieisho", "Tomokaze", "Tamawashi", "Shodai", "Chiyotairyu", "Ryuden"]
+  },
+  "option4": {
+    "formName": "Middle Maegashira (6-10)",
+    "wrestlers": ["Shimanoumi", "Myogiryu", "Kotoshogiku", "Kotoeko", "Okinoumi", "Takarafuji", "Terutsuyoshi", "Kotoyuki", "Sadanoumi", "Meisei"]
+  },
+  "option5": {
+    "formName": "Lower Maegashira (11-17)" ,
+    "wrestlers": ["Onosho", "Enho", "Shohozan", "Daishoho", "Kagayaki", "Nishikigi", "Tsurugisho", "Toyonoshima", "Ishiura", "Azumaryu", "Yutakayama", "Tochiozan", "Takagenji"]
+  }
+}
