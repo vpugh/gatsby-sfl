@@ -1,11 +1,10 @@
 import React from 'react';
-import Layout from '../components/layout';
 import TeamSelection from '../components/team-selection';
 
 const TestBasho = () => {
 
   return (
-    <Layout>
+    <section>
       <h2 style={{ textAlign: 'center' }}>Test Basho - Aki Basho 2019</h2>
       <div
         style={{
@@ -16,7 +15,7 @@ const TestBasho = () => {
       >
         <TeamSelection />
       </div>
-    </Layout>
+    </section>
   );
 };
 

@@ -1,11 +1,10 @@
 import React from 'react';
-import Layout from "../components/layout"
 
 const CreateLeague = () => {
   return (
-    <Layout>
+    <section>
       <h2>Create a League</h2>
-    </Layout>
+    </section>
   );
 };
 

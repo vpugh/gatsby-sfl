@@ -1,21 +1,46 @@
 import React from 'react';
-import Layout from "../components/layout"
-import { Link } from 'gatsby';
+import { Link, graphql, useStaticQuery } from 'gatsby';
 
 const JoinLeague = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      allBashos {
+        edges {
+          node {
+            name
+            type
+            id
+            rikishi
+            year
+            createdBy {
+              username
+              id
+            }
+          }
+        }
+      }
+    }
+  `)
+
   return (
-    <Layout>
+    <section>
       <h2>Join a League</h2>
-      <ul>
-        <li>
-          <Link to="test-basho">
-            Test Basho - Aki Basho 2019
-          </Link>
-          {' '}
-          by <Link to="/user/creator">Creator</Link>
-        </li>
+      <ul style={{ margin: 0, padding: 0 }}>
+        {data.allBashos.edges.map(({ node: basho}) => (
+          <li key={basho.id} style={{ listStyle: 'none' }}>
+            <Link to={`/basho/${basho.id}`}>
+              {basho.name} - {basho.type} Basho {basho.year}
+            </Link>
+            {' '}
+            <span>by</span>
+            {' '}
+            <Link to={`/users/${basho.createdBy.id}`}>
+              {basho.createdBy.username}
+            </Link>
+          </li>
+        ))}
       </ul>
-    </Layout>
+    </section>
   );
 };
 
