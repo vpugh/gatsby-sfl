@@ -1,0 +1,57 @@
+[
+  {
+    "name": "SFL 4 Lyfe",
+    "startTime": "September 8",
+    "totalEntrants": 100,
+    "maxEntrants": 550,
+    "id": "daff6308-a8ff-4c54-a897-efb04b573902",
+    "bashoType": "Aki",
+    "bashoYear": "2019",
+    "bashoFormat": "basho",
+    "tournamentType": "public"
+  },
+  {
+    "name": "Test Basho",
+    "startTime": "September 8",
+    "totalEntrants": 1,
+    "maxEntrants": 1000,
+    "id": "9a999a6f-9b5b-432f-954d-4fd50c7a7500",
+    "bashoType": "Aki",
+    "bashoYear": "2019",
+    "bashoFormat": "basho",
+    "tournamentType": "public"
+  },
+  {
+    "name": "Single Day 3",
+    "startTime": "September 10",
+    "totalEntrants": 38,
+    "maxEntrants": 550,
+    "id": "b929bf66-8f17-414d-a45c-e38e245d5834",
+    "bashoType": "Aki",
+    "bashoYear": "2019",
+    "bashoFormat": "day",
+    "tournamentType": "public"
+  },
+  {
+    "name": "Second Week",
+    "startTime": "September 15",
+    "totalEntrants": 38,
+    "maxEntrants": 100,
+    "id": "af4feb77-d4c2-4363-90de-6eabd76da772",
+    "bashoType": "Aki",
+    "bashoYear": "2019",
+    "bashoFormat": "week",
+    "tournamentType": "public"
+  },
+  {
+    "name": "",
+    "startTime": "",
+    "totalEntrants": "",
+    "maxEntrants": "",
+    "id": "",
+    "bashoType": "",
+    "bashoYear": "",
+    "bashoFormat": "",
+    "tournamentType": "private"
+  }
+]
