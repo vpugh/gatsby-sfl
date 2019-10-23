@@ -1,15 +1,25 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import TestLobbyData from '../data/lobby-test-data.json';
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div style={{ display: 'flex', justifyContent: 'space-between', height: '80vh', alignItems: 'center' }}> 
-      <Link to="/join-league" style={{ border: '1px solid #888', padding: '60px', textDecoration: 'none', color: 'inherit' }}>Join Sumo League</Link>
-      <Link to="/create-league" style={{ border: '1px solid #888', padding: '60px', textDecoration: 'none', color: 'inherit' }}>Create Sumo League</Link>
-    </div>
+    <table>
+      <tr>
+        <th>Tournament Name</th>
+        <th>Entrants</th>
+        <th>Deadline</th>
+      </tr>
+      {TestLobbyData.filter(d => d.tournamentType === 'public').map(data => (
+        <tr>
+          <td>{data.name} - {data.bashoType} Basho</td>
+          <td>{data.totalEntrants}/{data.maxEntrants}</td>
+          <td>{data.startTime}</td>
+        </tr>
+      ))}
+    </table>
   </Layout>
 )
 
