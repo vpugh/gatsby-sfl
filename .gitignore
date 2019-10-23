@@ -4,3 +4,5 @@
 /public
 .DS_Store
 .DS_Store
+firebase.json
+src/components/Firebase/config.js
